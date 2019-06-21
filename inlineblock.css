@@ -1,0 +1,58 @@
+/**********
+Inline(&/-)Block Media Queries
+**********/
+@media (min-width: 750px) {
+    .headline,
+    .nav,
+    .nav li{
+        display: inline-block;
+    }
+    
+    .headline {
+        width: 45%;
+    }
+    
+    .nav {
+        width: 50%
+    }
+    
+    .headline {
+        text-align: left
+    }
+    
+    .nav {
+        text-align: right;
+    }
+    
+    .nav li {
+        margin-right: 1em;
+    }
+    
+    .primary,
+    .secondary,
+    .tertiary {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .primary,
+    .secondary {
+        width: 45%;
+    }
+    
+    .primary {
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 1050px) {
+    .col {
+        width: 30%;
+    }
+    
+    .secondary {
+        margin-right:4%;
+    }
+    
+    
+}

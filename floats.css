@@ -1,0 +1,59 @@
+/**********
+Floats Media Queries
+**********/
+@media (min-width: 750px) {    
+    .headline,
+    .col {
+        float: left;
+    }
+    
+    .headline {
+        width: 45%;
+    }
+    
+    .headline {
+        text-align: left;
+        padding-left: 2.3em;
+    }
+    
+    .nav {
+        float: right;
+    }
+    
+    .nav li {
+        float: left;
+        padding-top: 50px;
+    }
+    
+    .primary {
+        width: 45%;
+    }
+    
+    .secondary {
+        width: 50%;
+    }
+    
+    .primary {
+        margin-right: 5%;
+    }
+    
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }    
+}
+
+@media (min-width: 1050px) {
+    .nav {
+        padding-top: 30px;
+    }
+    
+    .col {
+        width: 30%;
+    }
+    
+    .secondary {
+        margin-right:4%;
+    }
+}

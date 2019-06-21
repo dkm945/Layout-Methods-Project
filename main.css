@@ -1,0 +1,79 @@
+/**********
+Main Styles
+**********/
+a {
+    color: darkorange;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 1em;
+}
+
+.container,
+.main-header {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background: steelblue;
+    color: darkorange;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+/**********
+Standard Media Queries
+**********/
+@media (min-width: 750px) {    
+    h3 {
+        font-size: 1.3em;
+    }
+    
+    p {
+        font-size: 1.1em;
+    }
+    
+    header {
+        margin-bottom: 50px;
+    }
+    
+    .nav {
+        font-size: 1.15em;
+    }
+    
+    .nav li {
+        margin-right: 1em;
+    }
+    
+    .wrap {
+        min-height: calc(100vh - 89px);
+    }
+}
+
+@media (min-width: 1050px) {
+    .headline {
+        font-size: 1.4em;
+    }
+    
+    .nav {
+        font-size: 1.3em;
+    }
+    
+    
+    
+    
+}

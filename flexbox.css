@@ -1,0 +1,55 @@
+/**********
+Flexbox Media Queries
+**********/
+@media (min-width: 750px) {    
+    
+    .main-header,
+    .headline,
+    .nav,
+    .container {
+        display: flex;
+    }
+    
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .headline {
+        flex-direction: column;
+        text-align: left;
+        margin-left: 2.5em;
+    }
+    
+    h2 {
+        margin-top: 10px;
+    }
+    
+    .nav {
+        margin-top: 4.5em;
+    }
+    
+    .col {
+        flex: 1 45%;
+    }
+    
+    .primary {
+        padding-right: 5%;
+    }
+    
+    .container {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (min-width: 1050px) {
+    .col {
+        flex-basis: 0;
+        flex: 1 30%;
+    }
+    
+    .secondary {
+        padding-right: 5%;
+    }  
+}
